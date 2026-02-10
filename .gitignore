@@ -1,10 +1,25 @@
-# Ignore database config (contains passwords)
+# Ignore database configuration (contains credentials)
 db.php
 
-# Ignore logs and temp files
+# Ignore environment files
+.env
+
+# Ignore logs and temporary files
 *.log
 *.tmp
+*.cache
+
+# Ignore session files
+sessions/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
 
 # Ignore dependency folders
 vendor/
 node_modules/
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
