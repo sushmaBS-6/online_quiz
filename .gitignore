@@ -1,0 +1,10 @@
+# Ignore database config (contains passwords)
+db.php
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore dependency folders
+vendor/
+node_modules/
